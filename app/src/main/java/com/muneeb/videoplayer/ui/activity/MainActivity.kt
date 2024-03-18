@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         requestRuntimePermission()
 
         // for Nav Drawer
-        toggle = ActionBarDrawerToggle(this, binding.root, R.string.open, R.string.close)desu
+        toggle = ActionBarDrawerToggle(this, binding.root, R.string.open, R.string.close)
         binding.root.addDrawerListener(toggle)
         toggle.syncState()
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
